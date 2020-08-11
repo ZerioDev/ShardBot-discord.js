@@ -38,8 +38,8 @@ The goal of the shard is to launch the bot on the different servers but to be ab
 
 Setting the scene :
 
-Shard 1 > 500 servers
-Shard 2 > 800 servers
+- Shard 1 > 500 servers
+- Shard 2 > 800 servers
 
 If the bot shuts down on shard 1 it will no longer respond on the 500 servers it contains.
 But if i go to a shard 2 server the bot will respond.

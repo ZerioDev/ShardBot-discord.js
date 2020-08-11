@@ -13,6 +13,12 @@ For the bot to be able to start, please complete the token :
 }
 ```
 
+Don't forget to configure this with your server's webhook id and password in `bot.js` :
+
+```js
+client.statusHook = new Discord.WebhookClient("ID", "PASSWORD")
+```
+
 ### 🔔 Launch
 
 To install discord.js :

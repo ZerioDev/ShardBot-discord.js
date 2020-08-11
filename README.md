@@ -46,7 +46,7 @@ But if i go to a shard 2 server the bot will respond.
 
 To add more shards :
 
-```js
+```
 #Example to get two shards
 manager.spawn(2)
 

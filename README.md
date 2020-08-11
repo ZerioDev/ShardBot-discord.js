@@ -1,5 +1,5 @@
-# Music-bot
-A complete code to download for a music bot. Using a module (discord-player) 🏓
+# ShardBot-discord.js
+A short example to set up the shards on your discord bot ! 🏓
 
 Are you trying to understand shards ? This code is for you !
 

@@ -1,6 +1,8 @@
 //Require discord.js
 const Discord = require("discord.js");
 
+const config = require("./config.json");
+
 //New client
 const client = new Discord.Client();
 
@@ -10,7 +12,7 @@ client.on("ready", () => {
 });
 
 //New Webhook
-client.statusHook = new Discord.WebhookClient("ID", "PASSWORD")
+client.statusHook = new Discord.WebhookClient(config.webhookID, config.webhookToken)
 
 //Shard ready
 client.on("shardReady", async shard => {

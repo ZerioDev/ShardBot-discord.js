@@ -5,7 +5,7 @@ const { ShardingManager } = require('discord.js');
 const config = require("./config.json");
 
 //New manager with bot.js
-const manager = new ShardingManager('./bot.js', { token: config.token });
+const manager = new ShardingManager('./bot.js', { token: config.token, autoSpawn: true, respawn: true }); // Reboot even after crashes
 
-//For two shards
-manager.spawn(2);
+//Number of shards automatic
+manager.spawn();
